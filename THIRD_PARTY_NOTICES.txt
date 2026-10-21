@@ -1,0 +1,42 @@
+PicoFiler が使っている部品と、そのライセンス
+============================================
+
+PicoFiler には次の部品が含まれています。ライセンスの全文は licenses フォルダにあります。
+
+■ Qt 6.12.0 / Qt for Python（PySide6・Shiboken6）6.12.0
+  ライセンス：GNU Lesser General Public License version 3（LGPLv3）
+    licenses\Qt-PySide6_LGPL-3.0.txt と、その土台になる licenses\Qt-PySide6_GPL-3.0.txt
+  Copyright (C) The Qt Company Ltd. and other contributors.
+
+  あなたが持つ権利（LGPLv3）：
+  ・Qt と PySide6 のライブラリは、インストール先の _internal\PySide6 と _internal\shiboken6 に
+    独立したファイル（DLL・.pyd）として置いてあります。同じ版の互換のある、あなたが変更・再作成した
+    ライブラリに差し替えて、PicoFiler を動かすことができます。
+  ・Qt と PySide6 は変更せずに使っています。同梱している版の完全なソースコードは次の場所から入手できます。
+      https://github.com/nanana03/picofiler-oss-sources/releases/tag/picofiler-1.0.0
+        qt-everywhere-src-6.12.0.tar.xz
+        pyside-setup-everywhere-src-6.12.0.tar.xz
+    上記の場所から入手できない場合は、お問い合わせ（nanana03info@gmail.com）までご連絡ください。
+    本ソフトの最終の配布から少なくとも 3 年間、同じソースコードをお渡しします。
+  ・Qt の中に含まれる他の部品（画像の形式・文字の描画など）のライセンスと著作権表示は、
+    上記の Qt のソースコードの中に収められています。
+
+■ Python 3.14
+  ライセンス：Python Software Foundation License ほか（licenses\Python_LICENSE.txt。
+    Python に含まれる部品のライセンスも同じファイルにあります）
+
+■ Pillow 12.3.0
+  ライセンス：MIT-CMU（licenses\Pillow_LICENSE.txt）
+
+■ pywin32 312
+  ライセンス：Python Software Foundation License（licenses\pywin32_License.txt）
+
+■ 7-Zip 26.04（7z.exe・7z.dll）
+  ライセンス：GNU LGPL ほか、一部のコードに unRAR ライセンスの制限（licenses\7-Zip_License.txt）
+  7-Zip Copyright (C) 1999-2026 Igor Pavlov.
+  RAR の展開部分は unRAR のソースコードを元にしています。このコードを RAR（WinRAR）互換の
+  圧縮ソフトの開発に使うことはできません。
+  7-Zip は変更せずに使っています。同梱している版のソースコード（7z2604-src.tar.xz）は、
+  Qt と同じ次の場所から入手できます。
+      https://github.com/nanana03/picofiler-oss-sources/releases/tag/picofiler-1.0.0
+  7-Zip の公式サイト：https://www.7-zip.org/
