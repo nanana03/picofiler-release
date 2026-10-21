@@ -1,2 +1,3 @@
-# 寄付の受け口（GitHub のリポジトリに Sponsor ボタンを出す）。PathlessMark と同じ peekrvr（2026-10-16 承認）
-github: peekrvr
+# 寄付の受け口（Sponsor ボタン）。2026-10-22 ユーザー判断＝peekrvr の名前を出さず、公式サイトの寄付の節（Amazon ギフトカード・Ko-fi）へ。
+# Ko-fi のページができたら ko_fi: <名前> を足す。
+custom: ["https://nanana03.github.io/picofiler/#donate"]

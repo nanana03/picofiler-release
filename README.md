@@ -38,7 +38,7 @@ winget install Nanana.PicoFiler
 PicoFiler は無料です。気に入っていただけたら、寄付で応援していただけるとうれしいです。
 PicoFiler is free. If you like it, please consider supporting it.
 
-💝 https://github.com/sponsors/peekrvr
+💝 寄付の方法（Amazon ギフトカードなど）／ How to donate: https://nanana03.github.io/picofiler/#donate
 
 ## このリポジトリについて / About this repository
 
