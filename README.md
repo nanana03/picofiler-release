@@ -13,7 +13,7 @@ A fast, lightweight image viewer and organizer for Windows (free).
 - インストールには管理者の権限が必要です（PC 全体の検索を速くする「索引サービス」を登録するため。入れないことも選べます）。
 - コード署名をしていないため、「Windows によって PC が保護されました」と表示されることがあります。［詳細情報］→［実行］で進んでください。
 
-winget でも入れられます（登録の手続き中）：
+winget でも入れられます：
 
 ```
 winget install Nanana.PicoFiler
